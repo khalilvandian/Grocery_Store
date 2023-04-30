@@ -4,7 +4,7 @@ CREATE TABLE IF NOT EXISTS Items(
 );
 
 CREATE TEMP TABLE Temp_Items AS
-SELECT DISTINCT NULL, Item
+SELECT DISTINCT Item
 FROM Grocery_Store.Purchases;
 
 
